@@ -3,6 +3,7 @@ library(dplyr)
 library(reshape2)
 library(ggplot2)
 
+
 #1. Read in new text from .PDF files
 newtext<-readtext::readtext("PDF_tests/*pdf")
 
