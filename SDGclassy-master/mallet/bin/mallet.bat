@@ -62,8 +62,8 @@ set MALLET_ARGS=
 
 :getArg
 
-if "%1"=="" goto run
-set MALLET_ARGS=%MALLET_ARGS% %1
+if "%~1"=="" goto run
+set MALLET_ARGS=%MALLET_ARGS% %~1
 shift
 goto getArg
 
